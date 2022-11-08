@@ -1,5 +1,49 @@
 
-  @media screen and (max-width: 830px) {
+  @media screen and (max-width: 1270px) {
+    #container {
+        width: 40vw;
+        height: 9vw;
+        
+        background: #EEEEEE;
+        color: #333;
+        border-radius: 10px;
+        margin-top: 40%;
+        text-align: center;
+        
+    }
+    #min, #sec, #milisec{
+    background: #8D9EFF;
+      color: #6C4AB6;
+      padding: 5px;
+      width: 50px;
+      border-radius: 5px;
+      font-size: 20px;
+      
+      margin-top: -10px;
+      margin-left: 0px;
+    }
+   
+    #container button {
+        font-size: 20px;
+        
+        border: none;
+         
+        color: white;
+        border-radius: 5px;
+       
+        width: 100px;
+        height: 40px;
+        transition: .3s;
+      }
+
+      #div-button{
+        display: flex;
+        margin-top: 4vw;
+        justify-content:space-evenly;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
     #container {
         width: 40vw;
         height: 9vw;
@@ -11,7 +55,7 @@
         text-align: center;
         
     }
-    #container span{
+    #min, #sec, #milisec{
     background: #8D9EFF;
       color: #6C4AB6;
       padding: 5px;
@@ -54,7 +98,7 @@
         text-align: center;
         
     }
-    #container span{
+    #min, #sec, #milisec{
     background: #8D9EFF;
       color: #6C4AB6;
       padding: 5px;
@@ -65,6 +109,7 @@
       margin-top: -10px;
       margin-left: 0px;
     }
+    
 
     #container button {
         font-size: 14px;
@@ -73,6 +118,7 @@
          
         color: white;
         border-radius: 5px;
+        margin: 5px;
        
         width: 50px;
         height: 25px;
@@ -82,7 +128,11 @@
       #div-button{
         display: flex;
         margin-top: 5vw;
-        justify-content:space-between;
+        justify-content:space-evenly;
+      }
+
+      #time{
+        margin: -15px;
       }
   }
 

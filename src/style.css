@@ -4,6 +4,7 @@ body {
 }
 
 #container {
+  
     width: 25vw;
     height: 7vw;
     margin: 12vw auto;
@@ -17,7 +18,7 @@ body {
 
 
 
-#container span{
+#min, #sec, #milisec{
     background: #8D9EFF;
   color: #6C4AB6;
   padding: 8px;
@@ -27,6 +28,8 @@ body {
   display: inline-block;
   margin-left: 10px;
 }
+
+
 #container button {
     font-size: 22px;
     
